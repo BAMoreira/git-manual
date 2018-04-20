@@ -64,3 +64,5 @@ Para criar um branch, utiliza-se um dos seguintes comandos:
 * `git branch nomedoramo` para criar sem trocar.
 
 Para enviar o novo branch criado localmente ao repositório remoto(do github), utiliza-se o comando `git push -u`.
+
+**Ver também:** [Dicionário de Git](https://gist.github.com/victorsenam/8580499) por Victor Sena Molero.
