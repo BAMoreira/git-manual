@@ -52,3 +52,15 @@ make exemplo.x MAJOR=1 MINOR=0 DEBUG=0 FORTIFY=1
 
 Caso queira ocultar avisos sobre scanf, utilize `FORTIFY=0`
 
+Você pode também usar o comando `checkout` numa tag(veja abaixo).
+
+## Branches
+
+Branches são ramificações no projeto. O ramo principal, "master", é a "versão comercial" do projeto, a versão estável mais recente. Ao desenvolver código, você não deve mandar novas mudanças ao master. Deve-se criar um ramo "develop" para trabalhar, e assim que constatada a estabilidade na versão atual do develop, é feito um merge, que passa todos os commits do ramo develop ao ramo master.
+
+Para criar um branch, utiliza-se um dos seguintes comandos:
+
+* `git checkout -b nomedoramo` para criar e trocar para o ramo, também abreviado `git co -b nomedoramo` no hydra.
+* `git branch nomedoramo` para criar sem trocar.
+
+Para enviar o novo branch criado localmente ao repositório remoto(do github), utiliza-se o comando `git push -u`.
